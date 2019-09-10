@@ -4,11 +4,12 @@
   "description": "Angular 7 library lazy loading via router - AOT only Workaround",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --aot",
+    "build": "ng build --aot=true",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "serve:build":"serve dist\\demo-lazy-route-libraries"
   },
   "private": true,
   "dependencies": {
